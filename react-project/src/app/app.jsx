@@ -6,14 +6,13 @@ export default class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: `[TECH.IO] React template`
+            name: `Dhruv`
         };
     }
     render() {
         return (<div>
-            <img className='logo' src={logo}></img>
             <h1 className='title'>
-                {this.state.title}
+                Welcome to the jungle foo {this.state.name}
             </h1>
         </div>);
     }
